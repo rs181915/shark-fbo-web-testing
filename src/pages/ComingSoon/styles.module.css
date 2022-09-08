@@ -1,0 +1,22 @@
+.main {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main span {
+  background-color: beige;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  border-radius: 3px;
+  /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+  font-weight: 600;
+}
+.coming_soon {
+  /* border: 3px solid red; */
+  max-width: 100%;
+  width: 90%;
+  aspect-ratio: 2/1;
+}

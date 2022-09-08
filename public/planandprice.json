@@ -1,0 +1,54 @@
+[
+    {
+      "_id": "62bc26c6024b48b5201b1a7d",
+      "index": 0,
+      "price": "RS. 40000",
+      "planName": "Starter",
+      "plan1": "lorem ipsum dolor sit",
+      "plan2": "lorem ipsum dolor sit",
+      "plan3": "lorem ipsum dolor sit",
+      "plan4": "lorem ipsum dolor sit",
+      "plan5": "lorem ipsum dolor sit",
+      "plan6": "lorem ipsum dolor sit",
+      "plan7": "lorem ipsum dolor sit"
+    },
+    {
+      "_id": "62bc26c68cd40ba667cd50e0",
+      "index": 1,
+      "price": "RS. 40000",
+      "planName": "Platinum",
+      "plan1": "lorem ipsum dolor sit",
+      "plan2": "lorem ipsum dolor sit",
+      "plan3": "lorem ipsum dolor sit",
+      "plan4": "lorem ipsum dolor sit",
+      "plan5": "lorem ipsum dolor sit",
+      "plan6": "lorem ipsum dolor sit",
+      "plan7": "lorem ipsum dolor sit"
+    },
+    {
+      "_id": "62bc26c6e1bca74678f56b41",
+      "index": 2,
+      "price": "RS. 40000",
+      "planName": "Diamond",
+      "plan1": "lorem ipsum dolor sit",
+      "plan2": "lorem ipsum dolor sit",
+      "plan3": "lorem ipsum dolor sit",
+      "plan4": "lorem ipsum dolor sit",
+      "plan5": "lorem ipsum dolor sit",
+      "plan6": "lorem ipsum dolor sit",
+      "plan7": "lorem ipsum dolor sit"
+    },
+    {
+      "_id": "62bc26c61ab62362ac401526",
+      "index": 3,
+      "price": "RS. 40000",
+      "planName": "Enterprice",
+      "plan1": "lorem ipsum dolor sit",
+      "plan2": "lorem ipsum dolor sit",
+      "plan3": "lorem ipsum dolor sit",
+      "plan4": "lorem ipsum dolor sit",
+      "plan5": "lorem ipsum dolor sit",
+      "plan6": "lorem ipsum dolor sit",
+      "plan7": "lorem ipsum dolor sit"
+    }
+  ]

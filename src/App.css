@@ -1,0 +1,13 @@
+.app-version {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  z-index: 9999999999;
+}
+.app-version span {
+  margin: 0.2rem;
+  border: 1px solid gray;
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.4rem;
+  color: gray;
+}

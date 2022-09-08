@@ -1,0 +1,25 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  /* it also disables input typing for ios mobiles... need to find some other solution to block copy=pasting */
+  /* user-select: none; supported by Chrome and Opera */
+  /* -webkit-user-select: none; Safari */
+  /* -khtml-user-select: none; Konqueror HTML */
+  /* -moz-user-select: none; Firefox */
+  /* -ms-user-select: none; Internet Explorer/Edge */
+}
+a:hover,
+a:visited,
+a:link,
+a:active {
+  text-decoration: none;
+}
+
+button {
+  outline: none;
+  background: none;
+  border: none;
+}
