@@ -1,9 +1,17 @@
-import { ComingSoonProduction } from 'pages/ComingSoon/ComingSoon';
+import NavBar from 'components/NavBar/NavBar';
 import React from 'react';
 
 function Home() {
   return (
-    <ComingSoonProduction />
+    <div>
+      <div>
+        <h1>
+          Find Airport
+          {' '}
+          <span>Information</span>
+        </h1>
+      </div>
+    </div>
   );
 }
 

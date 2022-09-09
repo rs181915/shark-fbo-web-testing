@@ -10,6 +10,7 @@ import Config from 'config';
 import { useDispatch, useSelector } from 'react-redux';
 import * as actionConstants from 'store/constants/index';
 import pathname from 'routes';
+import NavBar from 'components/NavBar/NavBar';
 
 function AppVersion() {
   const [backendVersion, setBackendVersion] = useState('0.0.0');
@@ -44,6 +45,7 @@ function App() {
     <>
       <AppVersion />
       <div className="web-body">
+        <NavBar />
         <Routes>
           <Route exact path={pathname.home} element={<Home />} />
           <Route component={Home} />
