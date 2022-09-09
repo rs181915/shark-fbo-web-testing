@@ -3,7 +3,7 @@ import logo from '../../assets/images/logo.png';
 
 function NavBar() {
   return (
-    <div className="w-[1250px] mx-auto">
+    <div className="container">
       <div className="flex items-baseline gap-10 py-3">
         <div>
           <img src={logo} alt="logo" />
