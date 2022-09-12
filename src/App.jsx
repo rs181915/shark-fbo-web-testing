@@ -11,6 +11,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import * as actionConstants from 'store/constants/index';
 import pathname from 'routes';
 import NavBar from 'components/NavBar/NavBar';
+import AirportDetails from 'pages/AirportDetails/AirportDetails';
 
 function AppVersion() {
   const [backendVersion, setBackendVersion] = useState('0.0.0');
@@ -48,6 +49,7 @@ function App() {
         <NavBar />
         <Routes>
           <Route exact path={pathname.home} element={<Home />} />
+          <Route exact path={pathname.airport} element={<AirportDetails />} />
           <Route component={Home} />
         </Routes>
       </div>

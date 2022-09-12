@@ -1,6 +1,6 @@
 const pathname = {
   home: '/',
-  about: '/about',
+  airport: '/airport',
   services: '/services',
   webServices: '/web-services',
   productService: '/product-services',
