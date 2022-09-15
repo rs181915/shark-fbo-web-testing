@@ -12,6 +12,7 @@ import Remarks from './Remarks';
 import Stars from './Stars';
 import Iaps from './Iaps';
 import Departure from './Departure';
+import SideBar from './SideBar';
 
 const AirportDetails = () => (
   <div className="bg-[#F9FAFC] pt-16">
@@ -60,8 +61,40 @@ const AirportDetails = () => (
           <Stars />
           <Iaps />
           <Departure />
+          <div className="mt-10">
+            <h1 className="text-primary text-2xl font-bold mb-3">Other nearby airports with instrument procedures:</h1>
+            <div className="px-4">
+              <p className="mb-3">
+                <span className="font-semibold text-textColor">KRNT </span>
+                {' '}
+                - Renton Municipal Airport (4 nm SE)
+              </p>
+              <p className="mb-3">
+                <span className="font-semibold text-textColor">KSEA </span>
+                {' '}
+                - Seattle-Tacoma International Airport (5 nm S)
+              </p>
+              <p className="mb-3">
+                <span className="font-semibold text-textColor">S50 </span>
+                {' '}
+                - Auburn Municipal Airport (13 nm S)
+              </p>
+              <p className="mb-3">
+                <span className="font-semibold text-textColor">KPWT </span>
+                {' '}
+                - Bremerton National Airport (19 nm W)
+              </p>
+              <p className="mb-3">
+                <span className="font-semibold text-textColor">KTIW </span>
+                {' '}
+                - Tacoma Narrows Airport (19 nm SW)
+              </p>
+            </div>
+          </div>
         </div>
-        <div>2nd col</div>
+        <div className="ml-12 my-10">
+          <SideBar />
+        </div>
       </div>
     </div>
   </div>

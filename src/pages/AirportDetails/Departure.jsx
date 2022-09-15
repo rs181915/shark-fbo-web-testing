@@ -5,7 +5,7 @@ const Download = (name) => (
   <p className="font-semibold pb-3 flex justify-between">
     {name}
     {' '}
-    <button className="text-[#0066FF]">
+    <button className="text-textColor">
       Download
     </button>
   </p>
