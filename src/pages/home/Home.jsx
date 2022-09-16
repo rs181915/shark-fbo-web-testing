@@ -1,8 +1,13 @@
 import React from 'react';
+import { redirect } from 'helper';
+import pathname from 'routes';
+import { useNavigate } from 'react-router-dom';
 import icon from '../../assets/images/li.png';
 import banner from '../../assets/images/homeBanner.png';
 
 function Home() {
+  const navigate = useNavigate();
+
   return (
     <div className="container mx-auto py-4">
       <div className="flex items-center justify-between">
@@ -14,7 +19,7 @@ function Home() {
           </h1>
           <div className="flex gap-4 pt-10 pb-2">
             <input className="w-[420px] h-[60px] border border-customBlue rounded px-2" type="text" placeholder="Serch by Airport ID, or Name, or city" />
-            <button className="bg-customBlue text-[#fff] font-semibold p-5 rounded">Get Information</button>
+            <button onClick={() => redirect(navigate, pathname.airport)} className="bg-customBlue text-[#fff] font-semibold p-5 rounded">Get Information</button>
           </div>
           <p className="text-[#808080] ml-10 pb-8">Example :  KBOS</p>
           <div className="font-medium text-customBlue">
