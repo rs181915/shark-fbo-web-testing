@@ -44,7 +44,7 @@
     ]
   },
   "devDependencies": {
-    "react-scripts": "5.0.1",
+    "@svgr/webpack": "^6.3.1",
     "autoprefixer": "^10.4.8",
     "eslint": "^7.32.0",
     "eslint-config-airbnb": "^18.2.1",
@@ -54,9 +54,7 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "eslint-plugin-storybook": "^0.5.11",
     "postcss": "^8.4.16",
+    "react-scripts": "5.0.1",
     "tailwindcss": "^3.1.8"
-  },
-  "resolutions": {
-    "autoprefixer": "10.4.5"
   }
 }
